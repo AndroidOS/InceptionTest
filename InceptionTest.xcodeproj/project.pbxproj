@@ -14,6 +14,7 @@
 		BE7F9F3C23C67D190011DA18 /* InceptionTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE7F9F3A23C67D190011DA18 /* InceptionTest.xcdatamodeld */; };
 		BE7F9F3E23C67D1C0011DA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7F9F3D23C67D1C0011DA18 /* Assets.xcassets */; };
 		BE7F9F4123C67D1C0011DA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7F9F3F23C67D1C0011DA18 /* LaunchScreen.storyboard */; };
+		BE7F9F4923C67D530011DA18 /* Inceptionv3 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BE7F9F4823C67D530011DA18 /* Inceptionv3 2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BE7F9F3D23C67D1C0011DA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE7F9F4023C67D1C0011DA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE7F9F4223C67D1C0011DA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7F9F4823C67D530011DA18 /* Inceptionv3 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Inceptionv3 2.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		BE7F9F3023C67D190011DA18 /* InceptionTest */ = {
 			isa = PBXGroup;
 			children = (
+				BE7F9F4823C67D530011DA18 /* Inceptionv3 2.mlmodel */,
 				BE7F9F3123C67D190011DA18 /* AppDelegate.swift */,
 				BE7F9F3323C67D190011DA18 /* SceneDelegate.swift */,
 				BE7F9F3523C67D190011DA18 /* ViewController.swift */,
@@ -145,6 +148,7 @@
 				BE7F9F3223C67D190011DA18 /* AppDelegate.swift in Sources */,
 				BE7F9F3423C67D190011DA18 /* SceneDelegate.swift in Sources */,
 				BE7F9F3C23C67D190011DA18 /* InceptionTest.xcdatamodeld in Sources */,
+				BE7F9F4923C67D530011DA18 /* Inceptionv3 2.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
