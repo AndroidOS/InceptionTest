@@ -12,6 +12,8 @@ import Vision
 
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    
+    var listML = [VNClassificationObservation]()
 
     @IBOutlet weak var imageView: UIImageView!
     
@@ -35,8 +37,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             guard let results = request.results as? [VNClassificationObservation] else {
                 fatalError("Model failed to process image.")
         }
-            
-            print(results)
+            self.listML = results
+            DispatchQueue.main.async {
+                self.performSegue(withIdentifier: "list", sender: nil)
+            }
         }
         
         let handler = VNImageRequestHandler(ciImage: image)
@@ -66,6 +70,15 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBAction func cameraTapped(_ sender: UIBarButtonItem) {
         
         present(imagePicker, animated: true, completion: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "list"
+        {
+            if let destinationVC = segue.destination as? TableTableViewController {
+                destinationVC.list = listML
+            }
+        }
     }
     
 }

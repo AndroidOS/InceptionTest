@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE7689F723C8655D00BFC8E2 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7689F623C8655D00BFC8E2 /* TableTableViewController.swift */; };
 		BE7F9F3223C67D190011DA18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7F9F3123C67D190011DA18 /* AppDelegate.swift */; };
 		BE7F9F3423C67D190011DA18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7F9F3323C67D190011DA18 /* SceneDelegate.swift */; };
 		BE7F9F3623C67D190011DA18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7F9F3523C67D190011DA18 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE7689F623C8655D00BFC8E2 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
 		BE7F9F2E23C67D190011DA18 /* InceptionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InceptionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7F9F3123C67D190011DA18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE7F9F3323C67D190011DA18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				BE7F9F3123C67D190011DA18 /* AppDelegate.swift */,
 				BE7F9F3323C67D190011DA18 /* SceneDelegate.swift */,
 				BE7F9F3523C67D190011DA18 /* ViewController.swift */,
+				BE7689F623C8655D00BFC8E2 /* TableTableViewController.swift */,
 				BE7F9F3723C67D190011DA18 /* Main.storyboard */,
 				BE7F9F3D23C67D1C0011DA18 /* Assets.xcassets */,
 				BE7F9F3F23C67D1C0011DA18 /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				BE7F9F3223C67D190011DA18 /* AppDelegate.swift in Sources */,
 				BE7F9F3423C67D190011DA18 /* SceneDelegate.swift in Sources */,
 				BE7F9F3C23C67D190011DA18 /* InceptionTest.xcdatamodeld in Sources */,
+				BE7689F723C8655D00BFC8E2 /* TableTableViewController.swift in Sources */,
 				BE7F9F4923C67D530011DA18 /* Inceptionv3 2.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
